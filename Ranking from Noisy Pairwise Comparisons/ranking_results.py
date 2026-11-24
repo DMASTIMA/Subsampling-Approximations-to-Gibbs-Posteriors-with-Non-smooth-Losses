@@ -118,7 +118,7 @@ def main(
         print()
     print()
 
-    print("Quantile Differences (vs Full):")
+    print("Quantile Differences :")
     print(f"{'Method':<22}", end='')
     for batch in m_values:
         print(f"{'m=' + str(batch):<10}", end='')
@@ -128,7 +128,7 @@ def main(
         print(f"{diff[0, j]:<10.4f}", end='')
     print('\n')
 
-    print("Relative Deviations (vs Full):")
+    print("Relative Deviations :")
     print(f"{'Method':<22}", end='')
     for batch in m_values:
         print(f"{'m=' + str(batch):<10}", end='')
