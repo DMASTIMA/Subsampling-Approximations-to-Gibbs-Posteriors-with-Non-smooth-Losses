@@ -117,7 +117,7 @@ def main(
     print(f"Results for dd = {dd}:")
     print(f"{'=' * 60}\n")
 
-    print("95% Confidence Interval Length:")
+    print("95% Credible Interval Length:")
     print(f"{'Method':<18}", end='')
     for m in m_values:
         print(f"m={m:<6}", end='')
