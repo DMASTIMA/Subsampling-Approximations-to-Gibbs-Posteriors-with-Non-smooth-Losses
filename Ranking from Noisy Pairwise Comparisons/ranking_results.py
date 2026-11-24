@@ -93,7 +93,7 @@ def main(
         print()
     print()
 
-    print("95% Confidence Interval Length:")
+    print("95% Credible Interval Length:")
     print(f"{'Method':<22}", end='')
     for batch in m_values:
         print(f"{'m=' + str(batch):<10}", end='')
