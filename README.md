@@ -28,6 +28,3 @@ G_And_K_Mixture_sampler.py: It provides the samplers for the Full MH, Naive, and
 G_And_K_Mixture_results.py: It evaluates the Full MH, Naive, and Sub0 algorithms on the BATSE duration data across repeated runs. It compares the L1 and L2 distances between the mean predictive density and the observed-data density estimate, alongside computation time. The Sub0 algorithm uses the posterior mean from an initial Naive run as its reference point.
 
 G_And_K_Mixture_plot.py: It generates density plots comparing the observed-data density estimate with the mean predictive densities from the Full MH, Naive, and Sub0 algorithms. It also displays the pointwise 25th and 75th percentiles of the predictive density curves.
-
-      
-6:53
