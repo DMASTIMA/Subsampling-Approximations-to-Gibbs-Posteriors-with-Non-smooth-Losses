@@ -133,7 +133,7 @@ def main(
             print()
         print()
 
-        print("95% Confidence Interval Length:")
+        print("95% Credible Interval Length:")
         print(f"{'Method':<10}", end='')
         for m in m_values:
             print(f"m={m:<6}", end='')
