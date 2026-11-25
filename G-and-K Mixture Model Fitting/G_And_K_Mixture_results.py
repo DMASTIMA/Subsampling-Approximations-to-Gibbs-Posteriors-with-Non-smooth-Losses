@@ -65,7 +65,7 @@ def main(
 
         timetable[0] += time_full / Total
         timetable[1] += time_naive / Total
-        timetable[2] += (time_naive + reference_time + time_sub0) / Total
+        timetable[2] += time_sub0 / Total
 
         # One predictive bank is shared by all states and all three methods.
         predictive_bank = sample_latents(predictive_size)
