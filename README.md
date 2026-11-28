@@ -25,6 +25,4 @@ Robust_classification_plot.py: It generates marginal posterior density plots for
 
 G_And_K_Mixture_sampler.py: It provides the samplers for the Full MH, Naive, and Sub0 algorithms for a two-component g-and-k mixture model with a squared 2-Wasserstein loss. It combines a random walk proposal for the mixture weight with MALA proposals for the component parameters. The subsampling algorithms use mini-batches of latent variables.
 
-G_And_K_Mixture_results.py: It evaluates the Full MH, Naive, and Sub0 algorithms on the BATSE duration data across repeated runs. It compares the L1 and L2 distances between the mean predictive density and the observed-data density estimate, alongside computation time. The Sub0 algorithm uses the posterior mean from an initial Naive run as its reference point.
-
-G_And_K_Mixture_plot.py: It generates density plots comparing the observed-data density estimate with the mean predictive densities from the Full MH, Naive, and Sub0 algorithms. It also displays the pointwise 25th and 75th percentiles of the predictive density curves.
+G_And_K_Mixture_results.py: It evaluates the Full MH, Naive, and Sub0 algorithms on the BATSE duration data across repeated runs. It compares the L1 and L2 distances between the mean predictive density and the observed-data density estimate, alongside computation time. The Sub0 algorithm uses the posterior mean from a Naive run as its reference point.
